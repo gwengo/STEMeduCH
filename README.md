@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps necessary to get the application up and running.
+
+* Using kind : https://github.com/kubernetes-sigs/kind
 
 Things you may want to cover:
 
