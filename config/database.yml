@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password: P4ssh0le
+  pool: 5
+
+development:
+  <<: *default
+  database: goats_development
+
+
+test:
+  <<: *default
+  database: goats_test
